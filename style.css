@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.header-bg {
+  height: 850px;
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.banner-content {
+  max-width: 700px;
+}
+.banner-content h1 {
+  font-size: 80px;
+  font-weight: 800;
+  color: #272727;
+}
+.banner-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 30px 0px;
+}
+
+.banner-img {
+  padding-top: 50px;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 20px 40px;
+    background-color: #e55473;
+    border-radius: 8px;
+    border-width: 0;
+}
+.featured{
+    margin-top: 150px;
+    text-align: center;
+}
+.featured h4{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.featured p{
+    font-size: 18px;
+    font-weight: 400;
+}
