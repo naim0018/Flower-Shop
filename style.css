@@ -32,25 +32,85 @@
   padding-top: 50px;
 }
 
-.btn{
-    font-size: 20px;
-    font-weight: 700;
-    color: white;
-    padding: 20px 40px;
-    background-color: #e55473;
-    border-radius: 8px;
-    border-width: 0;
+.btn {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 20px 40px;
+  background-color: #e55473;
+  border-radius: 8px;
+  border-width: 0;
 }
-.featured{
-    margin-top: 150px;
-    text-align: center;
+.featured {
+  margin: 150px 0 48px 0;
+  text-align: center;
+  
 }
-.featured h4{
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 24px;
+.featured h4 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
 }
-.featured p{
-    font-size: 18px;
-    font-weight: 400;
+.featured p {
+  font-size: 18px;
+  font-weight: 400;
+ 
 }
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+.flower-tree {
+  text-align: center;
+}
+.flower-tree a{
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.flower-img {
+  height: 540px;
+  width: 465px;
+  margin-bottom: 32px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.first,
+.second {
+  /* display: block; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* padding-top: 110px; */
+  position: relative;
+  bottom: -112px;
+}
+.third {
+  position: relative;
+  bottom: -68px;
+}
+
+.service {
+  width: 1440px;
+  height: 320px;
+  margin-top: 128px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  line-height: 35px; 
+  
+}
+.service img{
+    /* padding-bottom: 24px; */
+    
+}
+
