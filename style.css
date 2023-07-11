@@ -242,7 +242,10 @@ line-height: 35px;
   font-weight: 800;
   text-align: center;
 }
-
+.person{
+  /* padding-top: 10px; */
+  font-size: 18px;
+}
 .user{
   max-width: 250px;
   text-align: center;
