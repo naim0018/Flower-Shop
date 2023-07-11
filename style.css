@@ -44,7 +44,6 @@
 .featured {
   margin: 150px 0 48px 0;
   text-align: center;
-  
 }
 .featured h4 {
   font-size: 40px;
@@ -54,7 +53,6 @@
 .featured p {
   font-size: 18px;
   font-weight: 400;
- 
 }
 
 .container {
@@ -68,7 +66,7 @@
 .flower-tree {
   text-align: center;
 }
-.flower-tree a{
+.flower-tree a {
   color: #272727;
   font-size: 24px;
   font-weight: 700;
@@ -101,16 +99,62 @@
   margin-top: 128px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  line-height: 35px; 
-  
-}
-.service img{
-    /* padding-bottom: 24px; */
-    
+  line-height: 35px;
 }
 
+.hot-deal {
+  margin-top: 128px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px 200px;
+}
+.deal-contant {
+  max-width: 595px;
+  text-align: center;
+  padding-top: 130px;
+}
+.deal-contant h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  padding-bottom: 24px;
+}
+
+.deal-contant p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 32px;
+}
+
+.insta {
+  width: 590px;
+  margin: auto;
+  text-align: center;
+  margin-top: 128px;
+}
+.insta h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.insta p {
+
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 25px 0;
+}
+.insta-item {
+  display: flex;
+  justify-content: space-between;
+}
